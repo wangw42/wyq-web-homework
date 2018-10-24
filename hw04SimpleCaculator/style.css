@@ -1,0 +1,65 @@
+html, body{
+	margin:0 auto;
+	padding: 0;
+    background-image: url(http://wx1.sinaimg.cn/large/5f4c94dagy1fk6m3cmmeqj20tf0tfjvo.jpg);
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+h1{
+	font-family: sans-serif;
+	color: #669999;
+	font-size: 22pt;
+	text-align: center;
+    text-shadow: 0 0 0.2em #8f98a1, -0 -0 0.2em #8f98a1;
+}
+
+#calculator{
+    margin: 0px auto;
+    width:300px;
+    height:400px;
+    padding:0px;
+    opacity: 0.88; 
+}
+
+#input{
+	width: 300px;
+	border: 1px solid #999999;
+}
+
+.screen{
+    width:296px;
+    height:50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-size:20px;
+    opacity: 0.86;
+}
+
+#btn input:hover{
+    background-color: #d5dae0;
+}
+
+#btn{
+    height:375px;
+    margin-top:0px;
+    padding:0px;
+}
+
+#btn .last{
+    margin-right:0px;
+}
+
+#btn .buttons{
+	font-size: large;
+	color: #6699cc;
+    float:left;
+    width: 75px;
+    height: 75px;
+    text-align:center;
+    border: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}

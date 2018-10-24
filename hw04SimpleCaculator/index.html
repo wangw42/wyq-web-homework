@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="calculator.js"></script>
+</head>
+<body>
+	<h1>Simple Calculator</h1>
+	<div id="calculator">
+		<div id="input">
+			<div class="screen">
+				<input type="text" id="textbox" name="textbox" class="screen">
+			</div>
+			<div id="btn">
+		        <!--一-->
+        		<input type="button" id="7" class="buttons" onclick="getn(this.id)" value="7">
+        		<input type="button" id="8" class="buttons" onclick="getn(this.id)" value="8">
+        		<input type="button" id="9" class="buttons" onclick="getn(this.id)" value="9">
+        		<input type="button" id="/" class="buttons" onclick="getn(this.id)" value="/">
+        		<!--二-->
+        		<input type="button" id="4" class="buttons" onclick="getn(this.id)" value="4">
+        		<input type="button" id="5" class="buttons" onclick="getn(this.id)" value="5">
+        		<input type="button" id="6" class="buttons" onclick="getn(this.id)" value="6">
+        		<input type="button" id="*" class="buttons" onclick="getn(this.id)" value="*">
+        		<!--三-->
+        		<input type="button" id="1" class="buttons" onclick="getn(this.id)" value="1">
+        		<input type="button" id="2" class="buttons" onclick="getn(this.id)" value="2">
+        		<input type="button" id="3" class="buttons" onclick="getn(this.id)" value="3">
+        		<input type="button" id="-" class="buttons" onclick="getn(this.id)" value="-">
+        		<!--四-->
+        		<input type="button" id="0" class="buttons" onclick="getn(this.id)" value="0">
+        		<input type="button" id="." class="buttons" onclick="getn(this.id)" value=".">
+        		<input type="button" id="←" class="buttons" onclick="back()" value="←">
+        		<input type="button" id="+" class="buttons" onclick="getn(this.id)" value="+">
+        		<!--五-->
+        		<input type="button" id="(" class="buttons" onclick="getn(this.id)" value="(">
+        		<input type="button" id=")" class="buttons" onclick="getn(this.id)" value=")">
+        		<input type="button" id="CE" class="buttons" onclick="CE()" value="CE">
+        		<input type="button" id="ans" class="buttons" onclick="ans()" value="=">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
