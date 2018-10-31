@@ -1,0 +1,181 @@
+html, body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+h1{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size:22pt;
+	font-weight: normal;
+}
+
+h2{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 18pt;
+	font-weight: normal;
+}
+
+h3{
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+	width: 580px;
+	padding: 20px;
+	margin: 0 auto;
+
+}
+
+h4{
+	width: 580px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+#egwall{
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 98px;
+	height: 28px;
+	background-color: #eeeeee;
+}
+
+#result{
+	height: 40px;
+	left: 36%;
+	top: 25%;
+	margin: 0 auto;
+	font-size: 20pt;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	color: #326CA6;
+}
+
+ul{
+	list-style: none;
+}
+
+#mainmaze{
+	position: relative;
+	width: 500px;
+	height: 300px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.wall{
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	margin: 0;
+	padding: 0px;
+	background-color: #eeeeee;
+}
+
+#route #one{
+	border:1px solid black;
+	border-left: 1px solid white;
+	position: absolute;
+	top: 200px;
+	left: -1px;
+	width: 200px;
+	height: 50px;
+	margin: 0px;
+	background-color: white;
+}
+
+#route #two{
+	border:1px solid black;
+	border-bottom: 1px solid white;
+	position: absolute;
+	top:50px;
+	left: 149px;
+	width: 50px;
+	height: 150px;
+	margin: 0px;
+	background-color: white;
+}
+
+#route #three{
+	border:1px solid black;
+	border-left: 1px solid white;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	width: 150px;
+	height: 50px;
+	margin: 0px;
+	background-color: white;
+}
+
+#route #four{
+	border:1px solid black;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	position: absolute;
+	top: 100px;
+	left: 300px;
+	width: 50px;
+	height: 100px;
+	margin: 0px;
+	background-color: white;
+}
+
+#route #five{
+	border:1px solid black;
+	position: absolute;
+	border-right: 1px solid white;
+	top: 200px;
+	left: 300px;
+	width: 199px;
+	height: 50px;
+	margin: 0px;
+	background-color: white;
+}
+
+#btn{
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: 24pt;
+	text-align: center;
+}
+
+#btn #start{
+	position: absolute;
+	top: 205px;
+	z-index: 999;
+	background-color: #86fd86;
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+}
+
+#btn #end{
+	position: absolute;
+	top: 205px;
+	left: 457px;
+	z-index: 999;
+	background-color: #8787f9;
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+}
+
+#btn #cheat{
+	width: 40px;
+	height: 60px;
+	position: absolute;
+	top: 200px;
+	left: 497px;
+}
+
+.touchwall{
+	background-color: red;
+}
+
+

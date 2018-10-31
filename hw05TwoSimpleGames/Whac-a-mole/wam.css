@@ -1,0 +1,105 @@
+html, body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+/*top*/
+h1{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size:22pt;
+	font-weight: normal;
+}
+
+p{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+	margin: 0 auto;
+}
+
+#record{
+	position: relative;
+	width: 300px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#left1{
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: 175px;
+	height:30px;
+}
+
+#right1{
+	position: absolute;
+	left: 185px;
+	top: 2px;
+	width: 125px;
+	height:30px;
+}
+#time{
+	width: 40px;
+	height:18px;
+}
+#left2{
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	width: 175px;
+	height:30px;
+}
+#result{
+	width: 130px;
+	height:18px;
+}
+
+#right2{
+	position: absolute;
+	left: 181px;
+	top: 30px;
+	width: 125px;
+	height:30px;
+}
+#score{
+	width: 40px;
+	height:18px;
+}
+
+/*game*/
+#maingame{
+    border-top: solid 1px #BDBDBD;
+    border-bottom: solid 1px #BDBDBD;
+    width: 250px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*hole*/
+.hole{
+	margin: 6px;
+}
+
+/*instructions*/
+#instruct p{
+	text-align: left;
+	width: 700px;
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 0 auto;
+}
+
+#instruct{
+	width: 700px;
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0 auto;
+}
