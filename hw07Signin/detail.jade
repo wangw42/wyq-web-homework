@@ -1,0 +1,24 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Detail
+    link(rel='stylesheet', type='text/css', href='/style.css')
+    script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+    script(src='/signup.js')
+    script(src='/validator.js')
+  body
+    h1 Detail
+    div.detail
+      | User Name: 
+      br
+      p #{username}
+      | Student ID: 
+      br
+      p #{sid}
+      | Tel: 
+      br
+      p #{tel}
+      | E-mail: 
+      br
+      p #{email}

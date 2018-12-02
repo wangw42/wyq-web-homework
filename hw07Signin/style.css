@@ -1,0 +1,75 @@
+html, body{
+	margin:  0 auto;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+h1{
+	margin top: 30px auto;
+	text-align: center;
+	font-family: Optima, courier ,sans-serif;
+	color: #fefefe;
+}
+
+form{
+	font-family: Optima, courier ,sans-serif;
+	margin: 10px auto;
+	padding: 20px;
+	width: 200px;
+	height: 100%;
+	color: #fefefe;
+	/*
+	border: solid 1px #909AA4;
+	border-radius: 5px;
+	*/
+}
+
+.error{
+	font-family: Optima, courier ,sans-serif;
+	color: #fefefe;
+	font-size: 10pt;
+	width: 220px;
+	margin: 0;
+	padding: 0;
+}
+
+input{
+	margin: 15px;
+	margin-bottom: 5px;
+	width: 150px;
+	height: 20px;
+	background-color: #909AA4;
+	border: #909AA4;
+	opacity: 0.66;
+}
+input:hover{
+	opacity: 1;
+}
+
+.reset, .submit{
+	opacity: 0.66;
+	margin: 10px;
+	width: 70px;
+	display: inline-block;
+}
+.reset:hover{
+	opacity: 1;
+}
+.submit:hover{
+	opacity: 1;
+}
+
+.detail{
+	font-family: Optima, courier ,sans-serif;
+	color: #99CCCC;
+	font-size: 12pt;
+	width: 200px;
+	margin: auto;
+	padding: 0;
+}
+
+.detail p{
+	font-size: 10pt;
+	color: #fefefe;
+}

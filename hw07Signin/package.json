@@ -1,0 +1,15 @@
+{
+  "name": "signup",
+  "version": "1.0.0",
+  "description": "a signup web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangyq95@mail2.sysu.edu.cn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0"
+  }
+}
