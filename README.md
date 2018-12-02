@@ -7,5 +7,6 @@
 * [hw04_SimpleCaculator](hw04SimpleCaculator)
 * [hw05_TwoSimpleGames](hw05TwoSimpleGames)
 * [hw06_FifteenPuzzle](hw06FifteenPuzzle)
+* [hw07_Signin](hw07Signin)
 <br>
 ..To be continued
