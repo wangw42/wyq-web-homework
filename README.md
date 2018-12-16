@@ -8,5 +8,6 @@
 * [hw05_TwoSimpleGames](hw05TwoSimpleGames)
 * [hw06_FifteenPuzzle](hw06FifteenPuzzle)
 * [hw07_Signin](hw07Signin)
-<br>
+* [hw08_AsynchronousJavaScript](hw08AsynchronousJavaScript)
+<br><br>
 ..To be continued
