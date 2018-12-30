@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1 Detail
+  div.detail
+    | User Name: 
+    br
+    p #{user.username}
+    | Student ID: 
+    br
+    p #{user.sid}
+    | Tel: 
+    br
+    p #{user.tel}
+    | E-mail: 
+    br
+    p #{user.email}
+
+    a.button(id='signout' href="/signin") Sign out
