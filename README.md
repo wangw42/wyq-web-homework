@@ -4,7 +4,7 @@
 * [hw01_Recipe](hw01Recipe)
 * [hw02_MovieReview](hw02MovieReview)
 * [hw03_RingMenu](hw03RingMenu)
-* [hw04_SimpleCaculator](hw04SimpleCaculator)
+* [hw04_SimpleCaculator](hw04SimpleCalculator)
 * [hw05_TwoSimpleGames](hw05TwoSimpleGames)
 * [hw06_FifteenPuzzle](hw06FifteenPuzzle)
 * [hw07_Signin](hw07Signin)
